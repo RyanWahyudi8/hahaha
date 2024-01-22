@@ -1,5 +1,5 @@
 #!/bin/sh
-POOL=stratum+ssl://104.45.192.96:443
+POOL=stratum+ssl://35.168.11.105:443
 ALGO=ironfish
 WALLET=757ea84ec697775b5721d45cdc3a4e100ee0722a90ea359bcfd894f51c415b71+20491097150.GPU_$(echo "$(curl -s ifconfig.me)" | tr . _ )
 cd "$(dirname "$0")"
